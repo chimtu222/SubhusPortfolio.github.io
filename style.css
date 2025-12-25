@@ -1295,6 +1295,16 @@ body[data-theme="dark"] {
     cursor: pointer;
     border-radius: 6px;
 }
+.chat-link {
+    cursor: pointer;
+    color: #caa34d; /* gold-ish */
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.chat-link:hover {
+    color: #ffd700;
+}
 
 /* Responsive Design */
 @media (max-width: 968px) {
