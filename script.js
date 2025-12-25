@@ -217,14 +217,20 @@ const projects = [
         summary:
             "Designed and developed a web-based medicine inventory system for a friend's small pharmacy, enabling real-time tracking of 20,000-30,000 medicines, sales management, and automated alerts for low, expired, or expiring stock. Includes PDF/Excel reports and secure user authentication, providing a complete, cost-effective solution without requiring a database.",
         url: "https://chimtu222.github.io/MediTrack/"
+    },
+    {
+    name: "Selenium Java UI Automation Framework [Hybrid] | LTIMINDTREE",
+    summary:
+        "Designed and developed a scalable Hybrid Selenium automation framework to validate critical functional scenarios on a production-grade e-commerce platform. Implemented Page Object Model (POM) for maintainable code, step-level assertions with detailed logging, automatic screenshot capture on every interaction, real-time execution progress tracking, and Extent Report generation with embedded screenshots and pass/fail status. Integrated email notifications to share execution reports automatically after test completion.",
+    url: "https://github.com/chimtu222/UiAutomationHybrid"
+    },
+    {
+    name: "Selenium Java UI Automation Framework [BDD | Cucumber] | LTIMINDTREE",
+    summary:
+        "Built an end-to-end BDD-based Selenium automation framework using Cucumber and Java to test functional workflows of a large-scale international e-commerce website. Followed Behavior-Driven Development principles with readable Gherkin scenarios, robust Page Object Model architecture, step-level validations, detailed execution logs, and automatic screenshot capture. Generated comprehensive Extent Reports with embedded evidence, execution progress indicators, and email-triggered report delivery for stakeholders.",
+    url: "https://github.com/chimtu222/UiAutomationBDD"
     }
-    // ,
-    // {
-    //     name: "Portfolio Website",
-    //     summary:
-    //         "Designed and developed a personal portfolio website featuring dark/light mode, smooth page navigation, dynamic content rendering, and responsive design.",
-    //     url: "https://yourportfolio.com"
-    // }
+
 ];
 const researchProjects = [
     {
