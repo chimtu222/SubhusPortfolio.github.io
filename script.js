@@ -3,8 +3,8 @@
             name: "Subramanyam Panda",
             tagline: "Software Developer & Problem Solver",
             about_text: "Passionate software developer with expertise in full-stack development and a strong foundation in multiple programming languages.",
-            company_name: "LTIMINDTREE | SDET",
-            years_experience: "1.5+ Years"
+            company_name: "LTM | SDET",
+            years_experience: "2+ Years"
         };
         
         // Theme Toggle Functionality
@@ -231,13 +231,13 @@ const projects = [
         url: "https://chimtu222.github.io/MediTrack/"
     },
     {
-    name: "Selenium Java UI Automation Framework [Hybrid] | LTIMINDTREE",
+    name: "Selenium Java UI Automation Framework [Hybrid] | LTM",
     summary:
         "Designed and developed a scalable Hybrid Selenium automation framework to validate critical functional scenarios on a production-grade e-commerce platform. Implemented Page Object Model (POM) for maintainable code, step-level assertions with detailed logging, automatic screenshot capture on every interaction, real-time execution progress tracking, and Extent Report generation with embedded screenshots and pass/fail status. Integrated email notifications to share execution reports automatically after test completion.",
     url: "https://github.com/chimtu222/UiAutomationHybrid"
     },
     {
-    name: "Selenium Java UI Automation Framework [BDD | Cucumber] | LTIMINDTREE",
+    name: "Selenium Java UI Automation Framework [BDD | Cucumber] | LTM",
     summary:
         "Built an end-to-end BDD-based Selenium automation framework using Cucumber and Java to test functional workflows of a large-scale international e-commerce website. Followed Behavior-Driven Development principles with readable Gherkin scenarios, robust Page Object Model architecture, step-level validations, detailed execution logs, and automatic screenshot capture. Generated comprehensive Extent Reports with embedded evidence, execution progress indicators, and email-triggered report delivery for stakeholders.",
     url: "https://github.com/chimtu222/UiAutomationBDD"
@@ -328,7 +328,7 @@ const knowledgeBase = {
     `,
 
     experience: `
-        I have 1.5+ years of experience working as an SDET at LTIMindtree.
+        I have 2+ years of experience working as an SDET at LTM.
         <br><br>
         <strong>
             <span class="chat-link" onclick="goToSection('experience')">
