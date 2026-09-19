@@ -219,6 +219,12 @@ const projects = [
         url: "https://circuit-ai-omega.vercel.app/"
     },
     {
+        name: "Sankar Enterprises - Sanitary Products E-Commerce Platform",
+        summary:
+            "Developed a full-stack sanitary products eCommerce platform for managing products, customers, orders, payments, deliveries, and business operations. Features include role-based access (Admin, Helper, Customer), inventory management, order tracking, manual UPI payment verification, customer management, sales analytics, product history tracking, report generation, and a responsive mobile-first interface designed for both business users and customers.",
+        url: "https://v0-sankar-enterprises.vercel.app/"
+    },
+    {
         name: "MediTrack -Medicine Inventory Management",
         summary:
             "Designed and developed a web-based medicine inventory system for a friend's small pharmacy, enabling real-time tracking of 20,000-30,000 medicines, sales management, and automated alerts for low, expired, or expiring stock. Includes PDF/Excel reports and secure user authentication, providing a complete, cost-effective solution without requiring a database.",
