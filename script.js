@@ -215,7 +215,7 @@ const projects = [
     {
         name: "Circuit-Ai",
         summary:
-            "Developed Circuit AI, a futuristic web-based personal AI assistant powered by multiple AI providers like Gemini, Groq, and OpenRouter. It supports long chat sessions, short commands, chat-wise history, reminders, alarms, voice interaction, image support, music controls, and weather features. The full version supports AI conversations, weather queries for multiple locations, and music playback, while the public web demo highlights the UI, alarm/reminder, Bhubaneswar weather widget, owner information, and core interaction flow due to limited free-tier API calls and daily token usage.",
+            "Developed **Circuit AI**, a futuristic web-based personal AI assistant powered by multiple AI providers, including **Gemini, Groq, and OpenRouter**. It supports long chat sessions, voice conversations in a Mumbai Bantai-inspired tone, short commands, chat-wise history, reminders, alarms, image support, music controls, and weather features. The platform enables AI-powered conversations, voice interaction, weather queries for multiple locations, and music playback, combining intelligent assistance, automation, productivity, and entertainment into a single personalized experience.",
         url: "https://circuit-ai-omega.vercel.app/"
     },
     {
