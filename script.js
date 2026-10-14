@@ -215,7 +215,7 @@ const projects = [
     {
         name: "Circuit-Ai",
         summary:
-            "Developed **Circuit AI**, a futuristic web-based personal AI assistant powered by multiple AI providers, including **Gemini, Groq, and OpenRouter**. It supports long chat sessions, voice conversations in a Mumbai Bantai-inspired tone, short commands, chat-wise history, reminders, alarms, image support, music controls, and weather features. The platform enables AI-powered conversations, voice interaction, weather queries for multiple locations, and music playback, combining intelligent assistance, automation, productivity, and entertainment into a single personalized experience.",
+            "Developed Circuit AI, a futuristic web-based personal AI assistant powered by multiple AI providers, including Gemini, Groq, and OpenRouter. It supports long chat sessions, voice conversations in a Mumbai Bantai-inspired tone, short commands, chat-wise history, reminders, alarms, image support, music controls, and weather features. The platform enables AI-powered conversations, voice interaction, weather queries for multiple locations, and music playback, combining intelligent assistance, automation, productivity, and entertainment into a single personalized experience.",
         url: "https://circuit-ai-omega.vercel.app/"
     },
     {
@@ -229,6 +229,12 @@ const projects = [
         summary:
             "Designed and developed a web-based medicine inventory system for a friend's small pharmacy, enabling real-time tracking of 20,000-30,000 medicines, sales management, and automated alerts for low, expired, or expiring stock. Includes PDF/Excel reports and secure user authentication, providing a complete, cost-effective solution without requiring a database.",
         url: "https://chimtu222.github.io/MediTrack/"
+    },
+    {
+        name: "Playwright -ExcelFlow | LTM",
+        summary:
+            "Built this Excel-driven codeless UI automation framework,which enables manual testers and non-technical users to automate testcases without writing code. Users can select testcases, define actions such as Navigate, Click, Fill, Scroll, and Verify, and execute them directly from Excel. The framework supports dynamic waits, isolated and parallel execution, step-level screenshots, failure handling, and consolidated premium HTML reporting.",
+        url: "https://github.com/chimtu222/Playwright_Demo"
     },
     {
     name: "Selenium Java UI Automation Framework [Hybrid] | LTM",
