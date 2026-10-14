@@ -231,9 +231,9 @@ const projects = [
         url: "https://chimtu222.github.io/MediTrack/"
     },
     {
-        name: "Playwright -ExcelFlow | LTM",
+        name: "ExcelFlow – Codeless Playwright TS | LTM",
         summary:
-            "Built this Excel-driven codeless UI automation framework,which enables manual testers and non-technical users to automate testcases without writing code. Users can select testcases, define actions such as Navigate, Click, Fill, Scroll, and Verify, and execute them directly from Excel. The framework supports dynamic waits, isolated and parallel execution, step-level screenshots, failure handling, and consolidated premium HTML reporting.",
+            "Built an Excel-driven, codeless UI automation framework that enables manual testers and non-technical users to automate testcases without writing code. Users can select testcases, define actions such as Navigate, Click, Fill, Scroll, and Verify, and execute them directly from Excel. The framework supports dynamic waits, isolated and parallel execution, step-level screenshots, failure handling, and consolidated premium HTML reporting.",
         url: "https://github.com/chimtu222/Playwright_Demo"
     },
     {
