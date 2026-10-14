@@ -219,7 +219,7 @@ const projects = [
         url: "https://circuit-ai-omega.vercel.app/"
     },
     {
-        name: "Sankar Enterprises - Sanitary E-Commerce Platform",
+        name: "Sankar Enterprises -B2B Sanitary E-Commerce Platform",
         summary:
             "Developed a full-stack sanitary products eCommerce platform for managing products, customers, orders, Stock,Sales Analysis, Reminders and business operations. Features include role-based access (Admin,Customer), inventory management, order tracking, customer management, sales analytics, product history tracking, report generation,Reminders and a responsive mobile-first interface designed for both business users and customers.",
         url: "https://shankar-enterprises.vercel.app/login"
