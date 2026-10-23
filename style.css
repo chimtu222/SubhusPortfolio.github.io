@@ -433,16 +433,19 @@ body.dark-mode .lead-text {
 
 /* Resume Button */
 .btn-primary {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
     padding: 1rem 2.5rem;
-    background: #1a1a1a;
-    color: #f5f5f0;
+    background: #171613;
+    color: #f1e9d4;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 700;
-    border: 2px solid #1a1a1a;
-    transition: all 0.2s ease;
+    border: 1px solid #d4af37;
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
     font-size: 0.9rem;
     margin-top: 1rem;
     position: relative;
@@ -450,9 +453,52 @@ body.dark-mode .lead-text {
     text-align: center;
 }
 
-.btn-primary:hover {
+.btn-primary::before,
+.btn-primary::after {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 0;
     background: #d4af37;
-    color: #1a1a1a;
+    content: "";
+    transform: scaleX(0);
+    transition: transform 0.35s ease;
+}
+
+.btn-primary::before {
+    left: 0;
+    transform-origin: right;
+}
+
+.btn-primary::after {
+    right: 0;
+    transform-origin: left;
+}
+
+.btn-primary i,
+.btn-primary span {
+    position: relative;
+    z-index: 1;
+    color: inherit;
+}
+
+.btn-primary:hover {
+    background: #171613;
+    color: #171613;
+    border-color: #d4af37;
+}
+
+.btn-primary:hover::before,
+.btn-primary:hover::after,
+.btn-primary:focus-visible::before,
+.btn-primary:focus-visible::after {
+    transform: scaleX(1);
+}
+
+.btn-primary:focus-visible {
+    outline: 1px solid #d4af37;
+    outline-offset: 3px;
 }
 
 .btn-primary:active {
@@ -461,18 +507,15 @@ body.dark-mode .lead-text {
 }
 
 body.dark-mode .btn-primary {
-    background: #d4af37;
-    color: #1a1a1a;
+    background: #171613;
+    color: #f1e9d4;
+    border-color: #d4af37;
 }
 
 body.dark-mode .btn-primary:hover {
-    background: #1a1a1a;
-    color: #f5f5f0;
-}
-
-.btn-primary i,
-.btn-primary span {
-    color: inherit;
+    background: #171613;
+    color: #171613;
+    border-color: #d4af37;
 }
 
 /* =========================
@@ -1065,42 +1108,40 @@ body.dark-mode .form-textarea:focus {
 .submit-btn {
     width: 100%;
     padding: 1.2rem;
-    background: #1a1a1a;
-    color: #f5f5f0;
-    border: none;
+    position: relative;
+    overflow: hidden;
+    background: #171613;
+    color: #f1e9d4;
+    border: 1px solid #000;
     text-transform: uppercase;
     letter-spacing: 0.15em;
     font-weight: 700;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
     font-size: 1rem;
-    position: relative;
-    overflow: hidden;
 }
 
-.submit-btn:before {
-    content: '';
+.submit-btn::before,
+.submit-btn::after {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 0;
-    height: 0;
-    border-radius: 50%;
-    background: #d4af37;
-    transition: width 0.6s ease, height 0.6s ease, top 0.6s ease, left 0.6s ease;
-    transform: translate(-50%, -50%);
+    top: 0;
+    width: 50%;
+    height: 100%;
     z-index: 0;
+    background: #d4af37;
+    content: "";
+    transform: scaleX(0);
+    transition: transform 0.35s ease;
 }
 
-.submit-btn:hover:before {
-    width: 500px;
-    height: 500px;
+.submit-btn::before {
+    left: 0;
+    transform-origin: right;
 }
 
-.submit-btn:hover {
-    color: #1a1a1a;
-    transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
+.submit-btn::after {
+    right: 0;
+    transform-origin: left;
 }
 
 .submit-btn span {
@@ -1108,17 +1149,34 @@ body.dark-mode .form-textarea:focus {
     z-index: 1;
 }
 
-body.dark-mode .submit-btn {
-    background: #d4af37;
-    color: #1a1a1a;
+.submit-btn:hover {
+    color: #171613;
+    background: #171613;
+    border-color: #000;
 }
 
-body.dark-mode .submit-btn:before {
-    background: #1a1a1a;
+.submit-btn:hover::before,
+.submit-btn:hover::after,
+.submit-btn:focus-visible::before,
+.submit-btn:focus-visible::after {
+    transform: scaleX(1);
+}
+
+.submit-btn:focus-visible {
+    outline: 1px solid #d4af37;
+    outline-offset: 3px;
+}
+
+body.dark-mode .submit-btn {
+    background: #171613;
+    color: #f1e9d4;
+    border-color: #000;
 }
 
 body.dark-mode .submit-btn:hover {
-    color: #f5f5f0;
+    color: #171613;
+    background: #171613;
+    border-color: #000;
 }
 
 /* Footer */
