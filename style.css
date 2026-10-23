@@ -1112,7 +1112,7 @@ body.dark-mode .form-textarea:focus {
     overflow: hidden;
     background: #171613;
     color: #f1e9d4;
-    border: 1px solid #000;
+    border: 2px solid #ccc;
     text-transform: uppercase;
     letter-spacing: 0.15em;
     font-weight: 700;
@@ -1170,7 +1170,7 @@ body.dark-mode .form-textarea:focus {
 body.dark-mode .submit-btn {
     background: #171613;
     color: #f1e9d4;
-    border-color: #000;
+    border-color: #444;
 }
 
 body.dark-mode .submit-btn:hover {
